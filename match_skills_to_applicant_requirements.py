@@ -6,7 +6,7 @@ def match_skills(job_skill_list, applicant_reqs_list):
     # Determine the total number of job_skills to match 100% for the role
     skills_len = len(job_skill_list)
 
-    # Go through the list if skills required for the job and match them against the applicants requirements
+    # Go through the list of skills required for the job and match them against the applicants requirements
     # If any match then store them in the matched_skills list
 
     matched_skills = []
